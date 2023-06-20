@@ -5,9 +5,9 @@ function  NavBar(){
   return ( 
     <>
       <nav>
-        <a>Home</a>
-        <a>Schedual</a>
-        <a>Vods</a>
+        <a href='/'>Home</a>
+        <a href='/schedule'>Schedule</a>
+        <a href='/vods'>Vods</a>
       </nav>
     </>
   );
