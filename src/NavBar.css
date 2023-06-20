@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--theme);
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
