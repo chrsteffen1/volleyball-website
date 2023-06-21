@@ -3,13 +3,12 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  background-color: var(--theme);
+  background-color: var(--background-color-light);
   width: 100% 
 }
 
 nav a {
   text-decoration: none;
-  color: #fff;
   margin: 0 10px;
   font-size: 20px;
   font-weight: bold;
