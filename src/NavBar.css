@@ -1,10 +1,13 @@
 nav {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
-  padding: 10px;
-  background-color: var(--background-color-light);
-  width: 100% 
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  
 }
 
 nav a {
@@ -14,4 +17,5 @@ nav a {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: var(--background-color-light);
 }
