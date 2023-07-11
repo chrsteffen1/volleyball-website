@@ -15,3 +15,86 @@ footer {
   left: 0;
   text-align: center;
 }
+/* CSS Profile */
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  background-color: var(--background-color);
+  color: var(--neutral-color);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+/* .app-container {
+  background-color: var(--primary-color);
+  padding: 20px;
+} */
+
+.footer {
+  background-color: var(--neutral-color-light);
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Navigation Bar Styles (assuming NavBar component) */
+.navbar {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: var(--neutral-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: var(--accent-color);
+}
+
+/* Route Styles */
+.route {
+  padding: 20px;
+}
+
+/* Home Styles (assuming Home component) */
+.home {
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+/* Schedule Styles (assuming Schedule component) */
+.schedule {
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+/* Vods Styles (assuming Vods component) */
+.vods {
+  background-color: var(--background-color);
+  text-align: center;
+}
