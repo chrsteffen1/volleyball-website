@@ -9,20 +9,20 @@ import Vods from './Vods'
 function App() {
 
   return (
-    <div className='app'>
-    <div className='app-container'>
-      <NavBar />
-    </div>
+     <div className="app">
+      <div className="app-container">
+        <NavBar />
+      </div>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/schedule' element={<Schedule />} />
-        <Route path='/vods' element={<Vods />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/vods" element={<Vods />} />
       </Routes>
-      <footer>
+      <footer className="footer">
         <p>© 2023 Men's Volleyball League. All rights reserved.</p>
       </footer>
     </div>
-  )
+  );
 }
 
 export default App
